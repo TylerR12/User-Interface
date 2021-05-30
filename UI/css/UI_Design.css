@@ -1,0 +1,78 @@
+html{
+    background: linear-gradient(white,black);
+}
+
+div{
+justify-content: center;
+}
+/*
+div.btn{
+    animation: glows 1s ease-in-out infinite alternate;
+}*/
+
+input[type=image]{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-height: 50%;
+    height: auto;
+    width: auto;
+}
+
+
+input[type=image]:focus{
+opacity: 80%;
+}
+
+input[type=text]{
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    height: 5%;
+    width: 20%;
+    transform: translate(-50%,-50%);
+}
+/*
+input[type=image]{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 100%;
+  width: auto;
+}
+
+
+
+input[type=image]:focus{
+opacity: 80%;
+}*/
+
+div.copyright p{
+  opacity: 0;
+
+}
+
+
+/*
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  @-webkit-keyframes glows {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }*/

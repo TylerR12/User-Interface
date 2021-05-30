@@ -1,0 +1,17 @@
+{
+    "manifest_version":2,
+    "name":"Tyler's UI",
+    "description":"Quick launch UI",
+    "version":"1.0.0",
+    "browser_action": {
+        "default_icon": "arc.png",
+        "default_popup" : "UI.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "js" : ["js/speechRec.js"]
+        }],
+
+    "permissions":["activeTab"]
+}
